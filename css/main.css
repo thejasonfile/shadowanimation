@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 }
 
 #wrapper {
@@ -9,7 +10,7 @@ body {
 
 #sky {
 	background-color: blue;
-	height: 75%;
+	height: 55%;
 	width: 100%;
 	z-index: 1;
 }
@@ -21,7 +22,7 @@ body {
 	border-radius: 50%;
 	z-index: 2;
 	position: relative;
-	left: -200px;
+	left: -100px;
 }
 
 #word {
@@ -29,11 +30,16 @@ body {
 	font-size: 14em;
 	top: 50%;
 	left: 25%;
+	color: rgb(193, 66, 0);
+	text-shadow: rgb(0,0,0) 15px 15px 5px;
+	transition-property: text-shadow;
+	transition-duration: 5s;
+	transition-delay: 1.2s;
 }
 
 #ground {
 	background-color: green;
-	height: 50%;
+	height: 70%;
 	width: 100%;
 	z-index: 1;
 }
