@@ -33,16 +33,17 @@ body {
 	border: none;
 }
 
+#repeat {
+	left: 43.5%;
+	z-index: 2;
+}
+
 .hidden {
 	visibility: hidden;
 }
 
 .visible {
 	visibility: visible;
-}
-
-.nothing {
-
 }
 
 #word {
