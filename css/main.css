@@ -25,6 +25,26 @@ body {
 	left: -100px;
 }
 
+#play, #repeat {
+	background-color: blue;
+	position: relative;
+	left: 48%;
+	top: 25%;
+	border: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.nothing {
+
+}
+
 #word {
 	position: fixed;
 	font-size: 14em;
